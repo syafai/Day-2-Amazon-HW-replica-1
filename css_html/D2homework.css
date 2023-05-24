@@ -24,7 +24,7 @@ input{
 
 .continue{
     margin: 10px; 
-    text-align: center:
+    text-align: center;
     padding: 10px;
 }
 
@@ -41,11 +41,16 @@ input{
 .links{
     text-align: center; 
     margin-right: 10px;
-    margin: 0px:
-    display: inline;
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
     list-style-type: none;
     padding: 20px;
     margin-right: 10px;
+    width: 100%;
+}
+
+a{
     text-decoration: none;
 }
 
@@ -62,4 +67,5 @@ div{
     text-decoration: none;
     padding: 10px;
 }
+
 
